@@ -13,13 +13,11 @@ public class SwitchToWindow {
         WebElement newTabButton= driver.findElement(By.id("new-tab-button"));
         newTabButton.click();
         String originalHandle=driver.getWindowHandle();
-        for(String handle1: driver.getWindowHandles())
-        {
+        for (String handle1:
+                driver.getWindowHandles()) {
             driver.switchTo().window(handle1);
         }
         driver.switchTo().window(originalHandle);
-        //driver.quit();
-
-
+        driver.quit();
     }
 }
