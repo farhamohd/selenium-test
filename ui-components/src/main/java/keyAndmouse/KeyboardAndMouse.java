@@ -9,6 +9,8 @@ public class KeyboardAndMouse {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/Users/mohaseenbagwan/Downloads/chromedriver");
 
+
+
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://formy-project.herokuapp.com/keypress");
