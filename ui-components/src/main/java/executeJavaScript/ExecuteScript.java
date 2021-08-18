@@ -18,7 +18,5 @@ public class ExecuteScript {
         //js.executeScript(s: "arguments[0].click();", closeButton);
         //driver.quit();
 
-
-
     }
 }

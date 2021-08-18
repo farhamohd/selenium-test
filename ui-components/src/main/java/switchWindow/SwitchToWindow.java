@@ -18,6 +18,7 @@ public class SwitchToWindow {
             driver.switchTo().window(handle1);
         }
         driver.switchTo().window(originalHandle);
+
         driver.quit();
     }
 }

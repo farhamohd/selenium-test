@@ -15,7 +15,7 @@ public class switchToAlert {
         alertButton.click();
         Alert alert=driver.switchTo().alert();
         alert.accept();
-        driver.quit();
 
+        driver.quit();
     }
 }
